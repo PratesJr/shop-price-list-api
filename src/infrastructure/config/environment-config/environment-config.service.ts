@@ -4,7 +4,8 @@ import { DatabaseConfig } from 'src/domain/database/database.interface';
 
 @Injectable()
 export class EnvironmentConfigService implements DatabaseConfig {
-  // eslint-disable-next-line prettier/prettier
+
+  // eslint-disable-next-line no-empty-function
   constructor(private configService: ConfigService) { }
 
   getDatabaseHost(): string {
